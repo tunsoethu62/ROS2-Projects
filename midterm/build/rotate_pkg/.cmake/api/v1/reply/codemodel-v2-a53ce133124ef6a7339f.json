@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3007c4501e641224bcd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rotate_pkg__py",
+					"jsonFile" : "directory-rotate_pkg__py-c9f04c8887b318a0535b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/soethutun/midterm/build/rotate_pkg/rotate_pkg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rotate_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rotate_pkg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rotate_pkg_egg-fe4c9341bc67627f3c25.json",
+					"name" : "ament_cmake_python_build_rotate_pkg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rotate_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rotate_pkg-28041f900b86e8df0fc7.json",
+					"name" : "ament_cmake_python_copy_rotate_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg-556bbadce7ef46d4f4f5.json",
+					"name" : "rotate_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg__cpp-f7100b11c79a90e7b9f1.json",
+					"name" : "rotate_pkg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rotate_pkg__py::@e9c129371a84b75cecb3",
+					"jsonFile" : "target-rotate_pkg__py-6fed75aafbcf64d0fc07.json",
+					"name" : "rotate_pkg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg__rosidl_generator_c-664d345134c1016caa38.json",
+					"name" : "rotate_pkg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg__rosidl_generator_py-b1737266b3259b89a736.json",
+					"name" : "rotate_pkg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg__rosidl_typesupport_c-3c0eb45d380b18e7dd89.json",
+					"name" : "rotate_pkg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg__rosidl_typesupport_c__pyext-311e2226f2a27a91402d.json",
+					"name" : "rotate_pkg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg__rosidl_typesupport_cpp-4a6d78fca2b03b2fd6de.json",
+					"name" : "rotate_pkg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg__rosidl_typesupport_fastrtps_c-9d0be301269601a401c2.json",
+					"name" : "rotate_pkg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg__rosidl_typesupport_fastrtps_c__pyext-d96944a070ab44525ac8.json",
+					"name" : "rotate_pkg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg__rosidl_typesupport_fastrtps_cpp-c63715364d5335ee6354.json",
+					"name" : "rotate_pkg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg__rosidl_typesupport_introspection_c-879cb410e7e9e5ab2659.json",
+					"name" : "rotate_pkg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg__rosidl_typesupport_introspection_c__pyext-3840c4c284977f119697.json",
+					"name" : "rotate_pkg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg__rosidl_typesupport_introspection_cpp-15333fc27e796a1ef133.json",
+					"name" : "rotate_pkg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate_pkg_uninstall-9b654f73e79142fcc092.json",
+					"name" : "rotate_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1701976ead0945b86b5d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/soethutun/midterm/build/rotate_pkg",
+		"source" : "/home/soethutun/midterm/src/rotate_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

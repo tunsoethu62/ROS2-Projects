@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from rotate_pkg/action/Rotate.action
+// generated code does not contain a copyright notice
+
+
+module rotate_pkg {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Rotate_Goal {
+      double angle;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Rotate_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Rotate_Feedback {
+      double reamining_angle;
+    };
+  };
+};

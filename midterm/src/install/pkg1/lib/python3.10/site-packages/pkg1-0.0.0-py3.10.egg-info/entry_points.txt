@@ -1,0 +1,5 @@
+[console_scripts]
+circle_publisher = pkg1.circle_publisher:main
+odom_logger = pkg1.odom_logger:main
+square_service_server = pkg1.square_service_server:main
+

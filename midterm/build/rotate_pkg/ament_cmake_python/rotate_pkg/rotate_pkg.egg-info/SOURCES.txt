@@ -1,0 +1,8 @@
+setup.py
+rotate_pkg/__init__.py
+rotate_pkg.egg-info/PKG-INFO
+rotate_pkg.egg-info/SOURCES.txt
+rotate_pkg.egg-info/dependency_links.txt
+rotate_pkg.egg-info/top_level.txt
+rotate_pkg/action/__init__.py
+rotate_pkg/action/_rotate.py

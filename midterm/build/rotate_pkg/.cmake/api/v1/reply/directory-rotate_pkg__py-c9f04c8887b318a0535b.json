@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rotate_pkg__py",
+		"source" : "/home/soethutun/midterm/build/rotate_pkg/rotate_pkg__py"
+	}
+}

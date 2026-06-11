@@ -1,0 +1,26 @@
+[0.575s] Invoking command in '/home/soethutun/midterm/src/pkg1': PYTHONPATH=/home/soethutun/midterm/build/pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soethutun/midterm/install/pkg1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg1 build --build-base /home/soethutun/midterm/build/pkg1/build install --record /home/soethutun/midterm/build/pkg1/install.log --single-version-externally-managed install_data
+[0.766s] running egg_info
+[0.767s] writing ../../build/pkg1/pkg1.egg-info/PKG-INFO
+[0.767s] writing dependency_links to ../../build/pkg1/pkg1.egg-info/dependency_links.txt
+[0.767s] writing entry points to ../../build/pkg1/pkg1.egg-info/entry_points.txt
+[0.767s] writing requirements to ../../build/pkg1/pkg1.egg-info/requires.txt
+[0.767s] writing top-level names to ../../build/pkg1/pkg1.egg-info/top_level.txt
+[0.768s] reading manifest file '../../build/pkg1/pkg1.egg-info/SOURCES.txt'
+[0.769s] writing manifest file '../../build/pkg1/pkg1.egg-info/SOURCES.txt'
+[0.769s] running build
+[0.769s] running build_py
+[0.769s] running install
+[0.769s] running install_lib
+[0.770s] running install_data
+[0.770s] running install_egg_info
+[0.772s] removing '/home/soethutun/midterm/install/pkg1/lib/python3.10/site-packages/pkg1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.772s] Copying ../../build/pkg1/pkg1.egg-info to /home/soethutun/midterm/install/pkg1/lib/python3.10/site-packages/pkg1-0.0.0-py3.10.egg-info
+[0.772s] running install_scripts
+[0.786s] Installing circle_publisher script to /home/soethutun/midterm/install/pkg1/lib/pkg1
+[0.786s] Installing odom_logger script to /home/soethutun/midterm/install/pkg1/lib/pkg1
+[0.787s] Installing rotate_action_client script to /home/soethutun/midterm/install/pkg1/lib/pkg1
+[0.787s] Installing rotate_action_server script to /home/soethutun/midterm/install/pkg1/lib/pkg1
+[0.787s] Installing square_service_client script to /home/soethutun/midterm/install/pkg1/lib/pkg1
+[0.787s] Installing square_service_server script to /home/soethutun/midterm/install/pkg1/lib/pkg1
+[0.787s] writing list of installed files to '/home/soethutun/midterm/build/pkg1/install.log'
+[0.811s] Invoked command in '/home/soethutun/midterm/src/pkg1' returned '0': PYTHONPATH=/home/soethutun/midterm/build/pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soethutun/midterm/install/pkg1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg1 build --build-base /home/soethutun/midterm/build/pkg1/build install --record /home/soethutun/midterm/build/pkg1/install.log --single-version-externally-managed install_data

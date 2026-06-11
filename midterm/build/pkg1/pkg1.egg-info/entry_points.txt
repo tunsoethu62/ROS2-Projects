@@ -1,0 +1,8 @@
+[console_scripts]
+circle_publisher = pkg1.circle_publisher:main
+odom_logger = pkg1.odom_logger:main
+rotate_action_client = pkg1.action_client:main
+rotate_action_server = pkg1.action_server:main
+square_service_client = pkg1.client:main
+square_service_server = pkg1.server:main
+

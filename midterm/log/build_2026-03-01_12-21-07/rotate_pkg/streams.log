@@ -1,0 +1,223 @@
+[0.207s] Invoking command in '/home/soethutun/midterm/build/rotate_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soethutun/ros2_ws/install/tf_examples:/home/soethutun/ros2_ws/install/my_pkg:/home/soethutun/midterm/install/pkg1:/home/soethutun/workspace/install/my_robot_controller:/home/soethutun/workspace/install/exercises:/home/soethutun/turtlebot3_ws/install/turtlebot3_teleop:/home/soethutun/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/soethutun/midterm/build/rotate_pkg -- -j4 -l4
+[0.229s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.332s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.382s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.385s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.387s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.601s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.749s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.944s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.961s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.979s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.979s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.979s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.000s] -- Added test 'lint_cmake' to check CMake code style
+[1.001s] -- Added test 'xmllint' to check XML markup files
+[1.003s] -- Configuring done
+[1.022s] -- Generating done
+[1.030s] -- Build files have been written to: /home/soethutun/midterm/build/rotate_pkg
+[1.052s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.058s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.074s] [  6%] Built target ament_cmake_python_copy_rotate_pkg
+[1.402s] [  6%] Built target rotate_pkg__cpp
+[1.409s] running egg_info
+[1.409s] writing rotate_pkg.egg-info/PKG-INFO
+[1.409s] writing dependency_links to rotate_pkg.egg-info/dependency_links.txt
+[1.409s] writing top-level names to rotate_pkg.egg-info/top_level.txt
+[1.411s] reading manifest file 'rotate_pkg.egg-info/SOURCES.txt'
+[1.411s] writing manifest file 'rotate_pkg.egg-info/SOURCES.txt'
+[1.414s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.414s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.445s] [ 12%] Built target ament_cmake_python_build_rotate_pkg_egg
+[1.460s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.680s] [35m[1mConsolidate compiler generated dependencies of target rotate_pkg__rosidl_generator_c[0m
+[1.692s] [ 19%] [32mBuilding C object CMakeFiles/rotate_pkg__rosidl_generator_c.dir/rosidl_generator_c/rotate_pkg/action/detail/rotate__functions.c.o[0m
+[1.828s] [ 22%] [32m[1mLinking C shared library librotate_pkg__rosidl_generator_c.so[0m
+[1.846s] [35m[1mConsolidate compiler generated dependencies of target rotate_pkg__rosidl_typesupport_cpp[0m
+[1.862s] [ 25%] [32mBuilding CXX object CMakeFiles/rotate_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rotate_pkg/action/rotate__type_support.cpp.o[0m
+[1.867s] [ 25%] Built target rotate_pkg__rosidl_generator_c
+[1.879s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.892s] [35m[1mConsolidate compiler generated dependencies of target rotate_pkg__rosidl_typesupport_introspection_cpp[0m
+[1.908s] [ 32%] [32mBuilding CXX object CMakeFiles/rotate_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rotate_pkg/action/detail/rotate__type_support.cpp.o[0m
+[1.960s] [35m[1mConsolidate compiler generated dependencies of target rotate_pkg__rosidl_typesupport_fastrtps_cpp[0m
+[1.976s] [ 35%] [32mBuilding CXX object CMakeFiles/rotate_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rotate_pkg/action/detail/dds_fastrtps/rotate__type_support.cpp.o[0m
+[2.348s] [ 38%] [32m[1mLinking CXX shared library librotate_pkg__rosidl_typesupport_cpp.so[0m
+[2.395s] [35m[1mConsolidate compiler generated dependencies of target rotate_pkg__rosidl_typesupport_fastrtps_c[0m
+[2.396s] [ 38%] Built target rotate_pkg__rosidl_typesupport_cpp
+[2.407s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.408s] [ 45%] [32mBuilding CXX object CMakeFiles/rotate_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rotate_pkg/action/detail/rotate__type_support_c.cpp.o[0m
+[2.550s] [ 48%] [32m[1mLinking CXX shared library librotate_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[2.568s] [ 51%] [32m[1mLinking CXX shared library librotate_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.641s] [ 51%] Built target rotate_pkg__rosidl_typesupport_introspection_cpp
+[2.654s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.671s] [ 54%] Built target rotate_pkg__rosidl_typesupport_fastrtps_cpp
+[2.821s] [ 58%] [32m[1mLinking CXX shared library librotate_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[2.883s] [35m[1mConsolidate compiler generated dependencies of target rotate_pkg__rosidl_typesupport_introspection_c[0m
+[2.888s] [35m[1mConsolidate compiler generated dependencies of target rotate_pkg__rosidl_typesupport_c[0m
+[2.894s] [ 61%] [32mBuilding C object CMakeFiles/rotate_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rotate_pkg/action/detail/rotate__type_support.c.o[0m
+[2.900s] [ 64%] [32mBuilding CXX object CMakeFiles/rotate_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rotate_pkg/action/rotate__type_support.cpp.o[0m
+[2.905s] [ 64%] Built target rotate_pkg__rosidl_typesupport_fastrtps_c
+[2.928s] [ 67%] [32m[1mLinking C shared library librotate_pkg__rosidl_typesupport_introspection_c.so[0m
+[2.934s] [ 70%] [32m[1mLinking CXX shared library librotate_pkg__rosidl_typesupport_c.so[0m
+[2.951s] [ 70%] Built target rotate_pkg__rosidl_typesupport_introspection_c
+[2.963s] [ 70%] Built target rotate_pkg__rosidl_typesupport_c
+[2.978s] [ 70%] Built target rotate_pkg
+[2.994s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.518s] [ 74%] Built target rotate_pkg__py
+[3.526s] [35m[1mConsolidate compiler generated dependencies of target rotate_pkg__rosidl_generator_py[0m
+[3.535s] [ 77%] [32mBuilding C object CMakeFiles/rotate_pkg__rosidl_generator_py.dir/rosidl_generator_py/rotate_pkg/action/_rotate_s.c.o[0m
+[3.627s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rotate_pkg/librotate_pkg__rosidl_generator_py.so[0m
+[3.657s] [ 80%] Built target rotate_pkg__rosidl_generator_py
+[3.666s] [35m[1mConsolidate compiler generated dependencies of target rotate_pkg__rosidl_typesupport_introspection_c__pyext[0m
+[3.668s] [35m[1mConsolidate compiler generated dependencies of target rotate_pkg__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.668s] [35m[1mConsolidate compiler generated dependencies of target rotate_pkg__rosidl_typesupport_c__pyext[0m
+[3.677s] [ 83%] [32mBuilding C object CMakeFiles/rotate_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rotate_pkg/_rotate_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.678s] [ 87%] [32mBuilding C object CMakeFiles/rotate_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rotate_pkg/_rotate_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.681s] [ 90%] [32mBuilding C object CMakeFiles/rotate_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rotate_pkg/_rotate_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[3.759s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rotate_pkg/rotate_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.788s] [ 93%] Built target rotate_pkg__rosidl_typesupport_introspection_c__pyext
+[3.806s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rotate_pkg/rotate_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.811s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rotate_pkg/rotate_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.835s] [100%] Built target rotate_pkg__rosidl_typesupport_fastrtps_c__pyext
+[3.840s] [100%] Built target rotate_pkg__rosidl_typesupport_c__pyext
+[3.848s] Invoked command in '/home/soethutun/midterm/build/rotate_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soethutun/ros2_ws/install/tf_examples:/home/soethutun/ros2_ws/install/my_pkg:/home/soethutun/midterm/install/pkg1:/home/soethutun/workspace/install/my_robot_controller:/home/soethutun/workspace/install/exercises:/home/soethutun/turtlebot3_ws/install/turtlebot3_teleop:/home/soethutun/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/soethutun/midterm/build/rotate_pkg -- -j4 -l4
+[3.856s] Invoking command in '/home/soethutun/midterm/build/rotate_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soethutun/ros2_ws/install/tf_examples:/home/soethutun/ros2_ws/install/my_pkg:/home/soethutun/midterm/install/pkg1:/home/soethutun/workspace/install/my_robot_controller:/home/soethutun/workspace/install/exercises:/home/soethutun/turtlebot3_ws/install/turtlebot3_teleop:/home/soethutun/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/soethutun/midterm/build/rotate_pkg
+[3.862s] -- Install configuration: ""
+[3.862s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/ament_index/resource_index/rosidl_interfaces/rotate_pkg
+[3.862s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg
+[3.863s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/msg
+[3.863s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/msg/rosidl_generator_c__visibility_control.h
+[3.863s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action
+[3.863s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/rotate.h
+[3.863s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail
+[3.863s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__struct.h
+[3.863s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__functions.c
+[3.863s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__type_support.h
+[3.863s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__functions.h
+[3.863s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/environment/library_path.sh
+[3.863s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/environment/library_path.dsv
+[3.863s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_generator_c.so
+[3.864s] -- Set runtime path of "/home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_generator_c.so" to ""
+[3.864s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg
+[3.864s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/msg
+[3.864s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.864s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action
+[3.864s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail
+[3.864s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__rosidl_typesupport_fastrtps_c.h
+[3.864s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_typesupport_fastrtps_c.so
+[3.864s] -- Set runtime path of "/home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_typesupport_fastrtps_c.so" to ""
+[3.864s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg
+[3.864s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/msg
+[3.864s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.865s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action
+[3.865s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail
+[3.865s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__rosidl_typesupport_introspection_c.h
+[3.865s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__type_support.c
+[3.865s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_typesupport_introspection_c.so
+[3.865s] -- Set runtime path of "/home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_typesupport_introspection_c.so" to ""
+[3.865s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_typesupport_c.so
+[3.865s] -- Set runtime path of "/home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_typesupport_c.so" to ""
+[3.865s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg
+[3.866s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/msg
+[3.866s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.866s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action
+[3.866s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/rotate.hpp
+[3.866s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail
+[3.866s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__struct.hpp
+[3.866s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__type_support.hpp
+[3.866s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__builder.hpp
+[3.866s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__traits.hpp
+[3.866s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg
+[3.866s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/msg
+[3.866s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.866s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action
+[3.866s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail
+[3.866s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__rosidl_typesupport_fastrtps_cpp.hpp
+[3.867s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/dds_fastrtps
+[3.867s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_typesupport_fastrtps_cpp.so
+[3.867s] -- Set runtime path of "/home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.867s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg
+[3.867s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action
+[3.867s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail
+[3.867s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__type_support.cpp
+[3.867s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/include/rotate_pkg/rotate_pkg/action/detail/rotate__rosidl_typesupport_introspection_cpp.hpp
+[3.867s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_typesupport_introspection_cpp.so
+[3.867s] -- Set runtime path of "/home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_typesupport_introspection_cpp.so" to ""
+[3.868s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_typesupport_cpp.so
+[3.868s] -- Set runtime path of "/home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_typesupport_cpp.so" to ""
+[3.868s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/environment/pythonpath.sh
+[3.868s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/environment/pythonpath.dsv
+[3.868s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg-0.0.0-py3.10.egg-info
+[3.868s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[3.868s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.868s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.868s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[3.869s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg
+[3.869s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/librotate_pkg__rosidl_generator_py.so
+[3.869s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/_rotate_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.869s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/_rotate_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[3.869s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/_rotate_pkg_s.ep.rosidl_typesupport_c.c
+[3.869s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/rotate_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.869s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/rotate_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.869s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/action
+[3.869s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/action/_rotate_s.c
+[3.870s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/action/_rotate.py
+[3.870s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/action/__init__.py
+[3.870s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/__init__.py
+[3.870s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/rotate_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.902s] Listing '/home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg'...
+[3.902s] Compiling '/home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/__init__.py'...
+[3.902s] Listing '/home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/action'...
+[3.902s] Compiling '/home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/action/__init__.py'...
+[3.902s] Compiling '/home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/action/_rotate.py'...
+[3.905s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/rotate_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.906s] -- Set runtime path of "/home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/rotate_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.906s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/rotate_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.906s] -- Set runtime path of "/home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/rotate_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.906s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/rotate_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.906s] -- Set runtime path of "/home/soethutun/midterm/install/rotate_pkg/local/lib/python3.10/dist-packages/rotate_pkg/rotate_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.906s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_generator_py.so
+[3.907s] -- Set runtime path of "/home/soethutun/midterm/install/rotate_pkg/lib/librotate_pkg__rosidl_generator_py.so" to ""
+[3.907s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/action/Rotate.idl
+[3.907s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/action/Rotate.action
+[3.907s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/ament_index/resource_index/package_run_dependencies/rotate_pkg
+[3.907s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/share/ament_index/resource_index/parent_prefix_path/rotate_pkg
+[3.907s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/environment/ament_prefix_path.sh
+[3.907s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/environment/ament_prefix_path.dsv
+[3.907s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/environment/path.sh
+[3.907s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/environment/path.dsv
+[3.907s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/local_setup.bash
+[3.907s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/local_setup.sh
+[3.907s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/local_setup.zsh
+[3.907s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/local_setup.dsv
+[3.907s] -- Installing: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/package.dsv
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/ament_index/resource_index/packages/rotate_pkg
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/export_rotate_pkg__rosidl_generator_cExport.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/export_rotate_pkg__rosidl_generator_cExport-noconfig.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/export_rotate_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/export_rotate_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rotate_pkg__rosidl_typesupport_introspection_cExport.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rotate_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rotate_pkg__rosidl_typesupport_cExport.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rotate_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/export_rotate_pkg__rosidl_generator_cppExport.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/export_rotate_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/export_rotate_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rotate_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rotate_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rotate_pkg__rosidl_typesupport_cppExport.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rotate_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/export_rotate_pkg__rosidl_generator_pyExport.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/export_rotate_pkg__rosidl_generator_pyExport-noconfig.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rosidl_cmake-extras.cmake
+[3.908s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.909s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.909s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[3.909s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[3.909s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.909s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.909s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rotate_pkgConfig.cmake
+[3.909s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/cmake/rotate_pkgConfig-version.cmake
+[3.909s] -- Up-to-date: /home/soethutun/midterm/install/rotate_pkg/share/rotate_pkg/package.xml
+[3.910s] Invoked command in '/home/soethutun/midterm/build/rotate_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soethutun/ros2_ws/install/tf_examples:/home/soethutun/ros2_ws/install/my_pkg:/home/soethutun/midterm/install/pkg1:/home/soethutun/workspace/install/my_robot_controller:/home/soethutun/workspace/install/exercises:/home/soethutun/turtlebot3_ws/install/turtlebot3_teleop:/home/soethutun/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/soethutun/midterm/build/rotate_pkg
